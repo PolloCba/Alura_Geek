@@ -1,0 +1,13 @@
+.footer{
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 100%;
+}
+
+.footer__descripcion{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-top: 25px;
+}

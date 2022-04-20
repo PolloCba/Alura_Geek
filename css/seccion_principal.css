@@ -1,0 +1,40 @@
+.seccion__principal{
+    width: 100%;
+    height: 350px;
+    padding: 10rem 1rem 2rem 8rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(../imagenes/banner-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.seccion__principal--titulo{
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.seccion__principal--parrafo{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.seccion__principal--boton{
+    height: 40px;
+    width: 133px;
+    border-width: 1px;
+    border: none;
+    background-color: #2a7ae4;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0.5rem 1.5rem;
+    display: inline;
+    margin-bottom: 0.8rem;
+}
