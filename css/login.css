@@ -1,0 +1,47 @@
+.seccion__login{
+    width: 100%;
+    height: 380px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario__login{
+    padding: 3rem 0rem;
+}
+
+.formulario__titulo{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.formulario__login input{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 413px;
+    height: 63.13px;
+    display: block;
+    border: none;
+    outline: none;
+    margin: 1rem 0rem;
+    outline: none;
+    border-bottom: solid #C8C8C8 2px;
+    padding-left: 10px;
+}
+
+.formulario__boton--login{
+    height: 63.13px;
+    width: 423px;
+    border-width: 1px;
+    border: none;
+    background-color: #2a7ae4;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0.5rem 1.5rem;
+    display: inline;
+    cursor: pointer;
+}

@@ -28,6 +28,7 @@
 .seccion__principal--boton{
     height: 40px;
     width: 133px;
+    cursor: pointer;
     border-width: 1px;
     border: none;
     background-color: #2a7ae4;

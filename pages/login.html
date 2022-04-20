@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Login</title>
+    <link rel="icon" type="image/png" href="../imagenes/iniciar-sesion.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/rodapie.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navegacion">
+          <div class="logo">
+              <a href="../index.html">
+                <img class="logo__imagen" alt="AluraGeek" title="AluraGeek" src="../imagenes/Logo.png">
+              </a>
+          </div>
+          <div class="barra__busqueda">
+             <input class="buscador" type="text" placeholder="    ¿Que deseas buscar?">
+             <img class="buscador__icono" src="../imagenes/lupa.svg">
+          </div>
+          <div class="login">
+            <button class="boton__login">
+                <a class="titulo__login" href="./login.html">Login</a>
+            </button>
+          </div>
+        </div>
+    </header>
+    <section class="seccion__login">
+        <form class="formulario__login">
+            <h3 class="formulario__titulo">Iniciar Sesion</h3>
+            <input type="email" placeholder="    Escriba su correo electronico" id="email">
+            <input type="password" placeholder="    Escriba su contraseña" id="password">
+            <button class="formulario__boton--login">Entrar</button>
+        </form>
+    </section>
+    <section class="seccion__rodapie">
+        <div class="rodapie__logo">
+            <a>
+              <img class="logo__imagen" alt="AluraGeek" title="AluraGeek" src="../imagenes/Logo.png">
+            </a>
+        </div>
+        <div class="seccion__rodapie--lista">
+             <ul class="rodapie__lista">
+                <li class="rodapie__lista--item">
+                    <a  class="rodapie__lista--link" href="#">Quienes Somos</a>
+                </li>
+                <li class="rodapie__lista--item">
+                    <a  class="rodapie__lista--link" href="#">Politica de privacidad</a>
+                </li>
+                <li class="rodapie__lista--item">
+                    <a class="rodapie__lista--link" href="#">Programa de fidelidad</a>
+                </li>
+                <li class="rodapie__lista--item">
+                    <a class="rodapie__lista--link" href="#">Nuestras tiendas</a>
+                </li>
+                <li class="rodapie__lista--item">
+                    <a class="rodapie__lista--link" href="#">Quiero ser franquiciado</a>
+                </li>
+                <li class="rodapie__lista--item">
+                    <a class="rodapie__lista--link" href="#">Anuncie aqui</a>
+                </li>
+             </ul>
+        </div>
+        <form class="formulario">
+            <h3 class="formulario__titulo">Hable con nosotros</h3>
+            <div class="formulario__campo">
+                <label for="name">Nombre</label>
+                <input name="name" type="text" class="formulario__nombre" id="name" required="" minlength="4" maxlength="40" data-tipo="name" placeholder="Claudio Fabian Amaya">
+            </div>
+            <div class="formulario__campo">
+                <label for="textarea">Escribe tu mensaje</label>
+                <textarea name="message" id="message" class="formulario__texto" required="" maxlength="120" data-tipo="message"></textarea>
+            </div>
+            <button class="formulario__boton">Enviar mensaje</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p class="footer__descripcion">© Desarrollado por Claudio Amaya - 2022</p>
+    </footer>
+</body>
+</html>

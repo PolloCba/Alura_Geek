@@ -38,11 +38,12 @@
 
 .buscador__icono{
     padding-right: 0.5rem;
+    cursor: pointer;
 }
 
 .boton__login{
-    height: 40px;
-    width: fit-content;
+    height: 51px;
+    width: 182px;
     border-width: 1px;
     background-color: white;
     border: solid #2a7ae4 1px;
