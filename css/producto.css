@@ -1,0 +1,114 @@
+.seccion__producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 64px 0;
+}
+
+.imagen__producto{
+    width: 560px;
+    height: 403px;
+}
+
+.seccion__producto--descripcion{
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px;
+}
+
+.descripcion__titulo{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 52px;
+    color: #464646;
+    margin: 4px 18px;
+}
+
+.descripcion__precio{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    margin: 4px 18px;
+}
+
+.descripcion__parrafo{
+    width: 560px;
+    height: 115px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+    margin: 4px 18px;
+}
+
+.productos__similares{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+.titulo__producto{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 250px;
+}
+
+.productos__similares--titulo{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-bottom: 16px;
+    margin-top: 64px;
+}
+
+.productos__similares--lista{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    padding: 0px;
+    margin-bottom: 64px;
+}
+
+.productos__similares--item{
+    transition: 0.5s all;
+}
+
+.productos__similares--item:hover{
+    transform: scale(1.10);
+}
+
+.productos__similares--imagen{
+    vertical-align: middle;
+}
+
+.productos__similares--nombre{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+    margin: 4px 0px;
+}
+
+.productos__similares--precio{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.productos__similares--link{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    color: #2a7ae4;
+    margin: 4px 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
