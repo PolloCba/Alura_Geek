@@ -24,21 +24,24 @@
     background-color: #f5f5f5;
     border-radius: 15px;
     color: #a2a2a2;
-    width: 500px;
+    width: 393px;
+    height: 40px;
 }
 
 .buscador{
     outline: none;
     display: block;
-    width: 499px;
+    width: 383px;
     border: none;
     background-color: #f5f5f5;
-    border-radius: 15px;
+    padding-left: 10px;
 }
 
 .buscador__icono{
-    padding-right: 0.5rem;
+    padding: 11px;
     cursor: pointer;
+    width: 17.06px;
+    height: 17.05px;
 }
 
 .boton__login{

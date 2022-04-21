@@ -45,3 +45,8 @@
     display: inline;
     cursor: pointer;
 }
+
+.formulario__boton--login:hover{
+    background: #5595e9;
+}
+

@@ -39,3 +39,7 @@
     display: inline;
     margin-bottom: 0.8rem;
 }
+
+.seccion__principal--boton:hover{
+    background: #5595e9;
+}
