@@ -1,0 +1,95 @@
+.productos__total{
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 64px 0;
+}
+
+.productos__total--titulo{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-bottom: 20px;
+    margin-top: 64px;
+    margin-right: 180px;
+}
+
+.titulo__total{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.titulo__link{
+    width: 163px;
+    height: 51px;
+    border: none;
+    background-color: #2a7ae4;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.titulo__link:hover{
+    background: #5595e9;
+}
+
+.agregar__boton{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.productos__total--lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1160px;
+    padding: 0px;
+    margin-bottom: 64px;
+}
+
+.productos__total--item{
+    transition: 0.5s all;
+    padding: 0.6%;
+}
+
+.productos__total--item:hover{
+    transform: scale(1.10);
+}
+
+.productos__total--imagen{
+    vertical-align: middle;
+}
+
+.productos__total--nombre{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+    margin: 4px 0px;
+}
+
+.productos__total--precio{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.productos__total--numero{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    color: #464646;
+    font-size: 14px;
+    line-height: 16px;
+}
