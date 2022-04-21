@@ -103,3 +103,11 @@
 .formulario__boton:hover{
     transform: scale(1.10);
 }
+
+.warnings{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        color: #806AB3;
+        padding-top: 20px;
+}

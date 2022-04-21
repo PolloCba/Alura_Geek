@@ -204,21 +204,24 @@
             </li>
          </ul>
     </div>
-    <form class="formulario">
+    <form action="" method="POST" id="form" class="formulario">
         <h3 class="formulario__titulo">Hable con nosotros</h3>
         <div class="formulario__campo">
             <label for="name">Nombre</label>
-            <input name="name" type="text" class="formulario__nombre" id="name" required="" minlength="4" maxlength="40" data-tipo="name" placeholder="Claudio Fabian Amaya">
+            <input name="nombre" type="text" class="formulario__nombre" id="nombre" placeholder="Claudio Fabian Amaya">
         </div>
         <div class="formulario__campo">
             <label for="textarea">Escribe tu mensaje</label>
-            <textarea name="message" id="message" class="formulario__texto" required="" maxlength="120" data-tipo="message"></textarea>
+            <textarea name="mensaje" id="mensaje" class="formulario__texto"></textarea>
         </div>
-        <button class="formulario__boton">Enviar mensaje</button>
+        <button class="formulario__boton" id="boton" disabled>Enviar mensaje</button>
+        <p class="warnings" id="warnings"></p>
     </form>
 </section>
 <footer class="footer">
     <p class="footer__descripcion">© Desarrollado por Claudio Amaya - 2022</p>
 </footer>
+<script src="./js/formulario_contacto.js"></script>
+<script src="./js/validar_boton--contacto.js"></script>
 </body>
 </html>
