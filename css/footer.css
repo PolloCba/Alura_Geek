@@ -14,7 +14,7 @@
 
 @media only screen and (max-device-width:375px){
     .footer{
-        width: 360px;
+        max-width: 375px;
         height: 102px;
     }
     .footer__descripcion{

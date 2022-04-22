@@ -67,7 +67,7 @@
         padding: 0;
     }
     .navegacion{
-        width: 360px;
+        max-width: 375px;
         height: 72px;
         display: flex;
         justify-content: space-between;
@@ -82,12 +82,19 @@
     .login{
         order: 2;
     }
-    .logo__imagen{
+    .logo{
         width: 100px;
         height: 28px;
+        margin-left: 10px;
+    }
+    .logo__imagen{
+        max-width: 100px;
+        max-height: 28px;
     }
     .barra__busqueda{
-        background-color: #FFFFFF
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
     }
     .buscador{
         width: 0px;
@@ -113,10 +120,12 @@
 
 @media only screen and (max-device-width:768px){
     .header{
+        width: 375px;
+        height: 72px;
         padding: 0;
     }
     .navegacion{
-        width: 360px;
+        width: 375px;
         height: 72px;
         display: flex;
         justify-content: space-around;

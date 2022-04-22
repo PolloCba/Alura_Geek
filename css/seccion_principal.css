@@ -44,3 +44,26 @@
     background: #5595e9;
 }
 
+@media only screen and (max-device-width:375px){
+    .seccion__principal{
+        display: inline-block;
+        max-width: 375px;
+        height: 192px;
+        padding: 90px 0 0 5px;
+    }
+    .seccion__principal--titulo {
+        color: white;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .seccion__principal--parrafo {
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .seccion__principal--boton {
+        height: 40px;
+        width: 118px;
+        padding: 0;
+    }
+}
