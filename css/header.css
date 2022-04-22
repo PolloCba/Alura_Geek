@@ -63,6 +63,9 @@
 }
 
 @media (min-width:0px) and (max-width:375px){
+    body{
+        max-width: 375px;
+    }
     .header{
         padding: 0;
     }
@@ -112,6 +115,9 @@
 }
 
 @media (min-width:375px) and (max-width:768px){
+    body{
+        max-width: 768px;
+    }
     .header{
         padding: 0;
     }
