@@ -83,9 +83,9 @@
     }
     .seccion__catalogo--link{
         width: 76px;
-    height: 16px;
-    font-size: 14px;
-    font-weight: 700;
+        height: 16px;
+        font-size: 13px;
+        font-weight: 700;
     }
 
     .seccion__catalogo--link img{
