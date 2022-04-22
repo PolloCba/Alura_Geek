@@ -12,7 +12,7 @@
     padding: 3rem 0rem;
 }
 
-.formulario__titulo{
+.formulario__login--titulo{
     text-align: center;
     font-size: 18px;
     font-weight: 700;
@@ -50,3 +50,30 @@
     background: #5595e9;
 }
 
+@media only screen and (max-device-width:375px){
+    .seccion__login{
+        max-width: 375px;
+        max-height: 362px;
+    }
+    .formulario__login{
+        width: 275px;
+        height: 189px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario__login--titulo{
+        width: 105px;
+        height: 19px;
+        font-size: 16px;
+    }
+    .formulario__login input{
+        width: 275px;
+        height: 41px;
+    }
+    .formulario__boton--login{
+        width: 109px;
+        height: 40px;
+    }
+}
