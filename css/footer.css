@@ -11,3 +11,15 @@
     line-height: 1.5rem;
     margin-top: 25px;
 }
+
+@media only screen and (max-device-width:375px){
+    .footer{
+        width: 360px;
+        height: 102px;
+    }
+    .footer__descripcion{
+        margin-top: 12px;
+        padding: 31px;
+        line-height: 1rem;
+    }
+}
