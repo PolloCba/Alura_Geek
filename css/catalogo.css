@@ -73,6 +73,7 @@
         height: 588px;
         padding: 0;
         padding-left: 6px;
+        padding-top: 5%;
     }
     .seccion__catalogo--titulo{
         width: 102px;
@@ -94,6 +95,7 @@
     .productos {
         display: grid;
         grid-template-columns: auto auto;
+        margin-left: 3%;
     }
     .productos__elemento:nth-child(5){
         display: none;

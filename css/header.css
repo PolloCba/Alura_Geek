@@ -85,59 +85,17 @@
     .logo{
         width: 100px;
         height: 28px;
-        margin-left: 10px;
     }
     .logo__imagen{
         max-width: 100px;
         max-height: 28px;
     }
     .barra__busqueda{
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-    }
-    .buscador{
-        width: 0px;
-        outline: none;
-        height: 20px;
-        border: none;
-        border-radius: 15px;
-        transition: ease-out 800ms;
-        background-color: #FFFFFF
-    }
-    .buscador:focus{
-        transition: ease-in 800ms;
-        background-color: #f5f5f5;
-        color: #a2a2a2;
-        width: 110px;
-        font-size: 11px;
-    }
-    .boton__login{
-        width: 133px;
-        height: 40px;
-    }
-}
-
-@media only screen and (max-device-width:768px){
-    .header{
-        width: 375px;
-        height: 72px;
+        background-color: #ffffff;
         padding: 0;
     }
-    .navegacion{
-        width: 375px;
-        height: 72px;
-        display: flex;
-        justify-content: space-around;
-        padding: 16px;
-    }
-    .logo__imagen{
-        width: 100px;
-        height: 28px;
-    }
-    .barra__busqueda{
-        width: 272px;
-        height: 40px;
+    .buscador{
+        display: none;
     }
     .boton__login{
         width: 133px;
