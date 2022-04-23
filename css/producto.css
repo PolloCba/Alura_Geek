@@ -112,3 +112,71 @@
     cursor: pointer;
 }
 
+@media only screen and (max-device-width:375px){
+    .seccion__producto{
+        display: inline;
+        max-width: 375px;
+        max-height: 413px;
+        padding: 0;
+    }
+    .imagen__producto{
+        max-width: 375px;
+        height: 192px;
+    }
+    .descripcion__titulo{
+        width: 328px;
+        height: 26px;
+        font-size: 22px;
+    }
+    .descripcion__precio{
+        width: 57px;
+        height: 19px;
+        font-size: 16px;
+    }
+    .descripcion__parrafo{
+        width: 328px;
+        height: 128px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .productos__similares{
+        display: inline;
+        max-width: 375px;
+        max-height: 556px;
+        padding: 0;
+    }
+    .titulo__producto{
+        display: inline;
+        width: 375px;
+        height: 26px;
+        margin: 0;
+        font-size: 22px;
+        padding: 16px;
+    }
+    .lista__producto{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 375px;
+    }
+    .productos__similares--titulo{
+        width: 375px;
+        margin: 0;
+        margin-left: 5px
+    }
+    .productos__similares--lista{
+        width: 375px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+    .productos__similares--item{
+        padding-bottom: 16px;
+    }
+    .productos__similares--item:nth-child(5){
+        display: none;
+    }
+    .productos__similares--item:nth-child(6){
+        display: none;
+    }
+}
+
