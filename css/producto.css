@@ -123,8 +123,12 @@
         padding: 16px;
         align-items: center;
     }
+    .seccion__producto--imagen{
+        width: 375px;
+        height: 192px;
+    }
     .imagen__producto{
-        max-width: 375px;
+        width: 375px;
         height: 192px;
     }
     .descripcion__titulo{
