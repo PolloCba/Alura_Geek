@@ -119,6 +119,10 @@
         max-height: 413px;
         padding: 0;
     }
+    .seccion__producto--descripcion{
+        padding: 16px;
+        align-items: center;
+    }
     .imagen__producto{
         max-width: 375px;
         height: 192px;
@@ -127,17 +131,22 @@
         width: 328px;
         height: 26px;
         font-size: 22px;
+        margin: 0;
     }
     .descripcion__precio{
         width: 57px;
         height: 19px;
         font-size: 16px;
+        margin: 0;
+        align-self: start;
+        padding: 8px 0px 8px 8px;
     }
     .descripcion__parrafo{
         width: 328px;
         height: 128px;
         font-size: 14px;
         line-height: 16px;
+        margin: 0;
     }
     .productos__similares{
         display: inline;
@@ -150,8 +159,6 @@
         width: 375px;
         height: 26px;
         margin: 0;
-        font-size: 22px;
-        padding: 16px;
     }
     .lista__producto{
         display: grid;
@@ -161,6 +168,8 @@
     .productos__similares--titulo{
         width: 375px;
         margin: 0;
+        font-size: 22px;
+        padding-bottom: 16px;
     }
     .productos__similares--lista{
         width: 375px;
