@@ -175,10 +175,10 @@
         width: 375px;
         display: grid;
         grid-template-columns: auto auto;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .productos__similares--item{
-        padding-bottom: 16px;
+        height: 249px;
     }
     .productos__similares--item:nth-child(5){
         display: none;
