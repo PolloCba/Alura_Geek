@@ -66,8 +66,8 @@
     .formulario__login--titulo{
         width: 105px;
         height: 19px;
-        font-size: 15px;
-        font-weight: 300;
+        font-size: 16px;
+        font-weight: 700;
         text-align: justify;
     }
     .formulario__login input{
