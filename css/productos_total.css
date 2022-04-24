@@ -112,6 +112,9 @@
         font-size: 22px;
         padding: 32px 114px 16px 5px
     }
+    .productos__total--lista{
+        height: 249px;
+    }
     .titulo__link{
         width: 150px;
         height: 40px;
@@ -128,10 +131,28 @@
     }
     .productos__total--lista{
         width: 360px;
+        justify-content: space-around;
+    }
+    .productos__total--imagen{
+        width: 140px;
+        height: 174px;
+    }
+    .productos__total--nombre{
+        width: 140px;
+        height: 16px;
+    }
+    .productos__total--precio{
+        width: 140px;
+        height: 19px;
+    }
+    .productos__total--numero{
+        width: 140px;
+        height: 16px;
     }
     .productos__total--item{
         height: 249px;
         padding: 5px;
+        width: 140px;
     }
     .productos__total--item:hover{
         transform: scale(1);
