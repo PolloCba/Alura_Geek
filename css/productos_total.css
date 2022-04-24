@@ -97,7 +97,7 @@
 @media only screen and (max-device-width:375px){
     .productos__total{
         justify-content: flex-start;
-        width: 375px;
+        width: 360px;
         height: 2547px;
         padding: 0;
     }
@@ -124,10 +124,10 @@
         font-size: 14px;
     }
     .lista__total{
-        width: 375px;
+        width: 360px;
     }
     .productos__total--lista{
-        width: 375px;
+        width: 360px;
     }
     .productos__total--item{
         height: 249px;
