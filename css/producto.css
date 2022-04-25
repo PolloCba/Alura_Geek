@@ -192,7 +192,7 @@
     }
 }
 
-@media (min-device-width:375px) and (max-device-width:769px){
+@media (min-device-width:375px) and (max-device-width:768px){
     .seccion__producto{
         width: 768px;
         height: 221px;

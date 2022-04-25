@@ -163,12 +163,15 @@
         width: auto;
     }
 }
-@media (min-device-width:375px) and (max-device-width:769px){
+@media (min-device-width:375px) and (max-device-width:768px){
     .seccion__rodapie{
         width: 768px;
         height: 364px;
         display: flex;
         padding: 0;
+    }
+    .rodapie__seccion--1{
+        display: inline;
     }
     .rodapie__logo{
         margin: 42.42px 0 0 36.99px;
@@ -205,15 +208,15 @@
         height: 56px;
     }
     .formulario__campo label{
-        width: 434px;
+        width: auto;
         height: 16px;
     }
     .formulario input{
-        width: 434px;
+        width: auto;
         height: 28px;
     }
     .formulario textarea{
-        width: 434px;
+        width: auto;
         height: 82px;
     }
     .formulario__boton{
