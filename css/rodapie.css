@@ -9,13 +9,18 @@
     align-items: center;
     height: 350px;
 }
+.rodapie__seccion--1{
+    display: flex;
+}
 
 .rodapie__logo{
-    margin: 0 0 150px 100px;
+    margin: 0 112px 150px 100px;
 }
 
 .seccion__rodapie--lista{
-    margin-right: 5%;
+    margin: 0;
+    width: 176px;
+    height: 234px;
 }
 
 .rodapie__lista{
@@ -152,5 +157,65 @@
     }
     .formulario textarea{
         width: auto;
+    }
+}
+@media (min-device-width:375px) and (max-device-width:769px){
+    .seccion__rodapie{
+        width: 768px;
+        height: 364px;
+        display: flex;
+        padding: 0;
+    }
+    .rodapie__logo{
+        margin: 42.42px 0 0 36.99px;
+    }
+    .logo__imagen--rodapie{
+        width: 176px;
+        height: 50px;
+    }
+    .seccion__rodapie--lista{
+        padding-left: 32px;
+        margin: 0;
+    }
+    .rodapie__lista{
+        gap: 0;
+        display: inline;
+        text-align: initial;
+    }
+    .rodapie__lista--item{
+        margin: 12px;
+    }
+    .formulario{
+        width: 434px;
+        height: 229px;
+        margin-right: 32px;
+        margin-top: 32px;
+    }
+    .formulario__titulo{
+        width: 434px;
+        height: 19px;
+        font-size: 16px;
+    }
+    .formulario__campo{
+        width: 434px;
+        height: 56px;
+    }
+    .formulario__campo label{
+        width: 434px;
+        height: 16px;
+    }
+    .formulario input{
+        width: 434px;
+        height: 28px;
+    }
+    .formulario textarea{
+        width: 434px;
+        height: 82px;
+    }
+    .formulario__boton{
+        width: 133px;
+        height: 40px;
+        padding: 12px 16px 12px 16px;
+        margin: 0;
     }
 }

@@ -54,7 +54,7 @@
 .titulo__producto{
     display: flex;
     align-self: flex-start;
-    margin-left: 250px;
+    margin-left: 210px;
 }
 
 .productos__similares--titulo{
@@ -183,6 +183,83 @@
     }
     .productos__similares--item{
         height: 249px;
+    }
+    .productos__similares--item:nth-child(5){
+        display: none;
+    }
+    .productos__similares--item:nth-child(6){
+        display: none;
+    }
+}
+
+@media (min-device-width:375px) and (max-device-width:769px){
+    .seccion__producto{
+        width: 768px;
+        height: 221px;
+        padding: 32px 0 32px 0;
+    }
+    .seccion__producto--imagen{
+        width: 254px;
+        height: 157px;
+        margin: 32px 8px 32px 32px;
+    }
+    .imagen__producto{
+        width: 254px;
+        height: 157px;
+    }
+    .seccion__producto--descripcion{
+        width: 434px;
+        height: 157px;
+        padding: 0;
+        margin: 32px 32px 32px 8px;
+    }
+    .descripcion__titulo{
+        width: 434px;
+        height: 26px;
+        font-size: 22px;
+    }
+    .descripcion__precio{
+        width: 57px;
+        height: 19px;
+        font-size: 16px;
+    }
+    .descripcion__parrafo{
+        width: 434px;
+        height: 96px;
+        font-size: 14px;
+    }
+    .productos__similares{
+        width: 768px;
+        height: 358px;
+        justify-content: space-around;
+        align-items: initial;
+    }
+    .titulo__producto{
+        width: 768px;
+        height: 26px;
+        margin: 0;
+    }
+    .lista__producto{
+        width: 768px;
+        height: 252px;
+        display: flex;
+        justify-content: center;
+    }
+    .productos__similares--titulo{
+        width: 208px;
+        height: 26px;
+        font-size: 22px;
+        margin: 32px 528px 16px 32px;
+    }
+    .productos__similares--lista{
+        width: 768px;
+        height: 252px;
+        justify-content: center;
+    }
+    .productos__similares--item{
+        width: 164px;
+        height: 252px;
+        padding: 32px 16px 32px 8px;
     }
     .productos__similares--item:nth-child(5){
         display: none;

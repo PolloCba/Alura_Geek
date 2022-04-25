@@ -67,3 +67,26 @@
         padding: 0;
     }
 }
+
+@media (min-device-width:375px) and (max-device-width:769px){
+    .seccion__principal{
+        width: 768px;
+        height: 352px;
+        padding: 161px 32px 44px 32px;
+    }
+    .seccion__principal--titulo{
+        width: 704px;
+        height: 61px;
+    }
+    .seccion__principal--parrafo{
+        width: 704px;
+        height: 26px;
+        font-size: 22px;
+    }
+    .seccion__principal--boton{
+        width: 118px;
+        height: 40px;
+        font-size: 14px;
+        padding: 0;
+    }
+}

@@ -102,3 +102,27 @@
         height: 40px;
     }
 }
+
+@media (min-device-width:375px) and (max-device-width:769px){
+    .header{
+        width: 768px;
+        height: 72px;
+    }
+    .navegacion{
+        width: 768px;
+        height: 72px;
+        padding: 16px;
+    }
+    .logo__imagen{
+        width: 100px;
+        height: 28px;
+    }
+    .barra__busqueda{
+        width: 272px;
+        height: 40px;
+    }
+    .boton__login{
+        width: 166px;
+        height: 40px;
+    }
+}
