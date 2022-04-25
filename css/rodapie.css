@@ -123,6 +123,10 @@
         height: 553px;
         display: inline-block;
     }
+    .rodapie__seccion--1{
+        display: flex;
+        flex-direction: column;
+    }
     .rodapie__logo{
         margin: 0;
         display: flex;
