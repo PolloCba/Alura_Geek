@@ -59,6 +59,7 @@
 .agregar__producto--busqueda{
     width: 229px;
     height: 51px;
+    border-radius: 4px;
     border: 1px solid #2a7ae4;
     color: #2a7ae4;
     text-decoration: none;
@@ -68,6 +69,10 @@
     line-height: 19px;
     padding: 16px;
     cursor: pointer;
+}
+.agregar__producto--link{
+    text-decoration: none;
+    color: #2a7ae4;
 }
 
 .agregar__producto--nombre{
