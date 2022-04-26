@@ -60,7 +60,7 @@
 }
 
 .productos__link{
-    padding: 1rem 1rem 1rem 0;
+    padding: 8px 0 0 2px;
     display: flex;
     font-weight: 600;
     text-decoration: none;
@@ -173,6 +173,5 @@
     .productos__link{
         width: 100px;
         height: 19px;
-        padding: 0;
     }
 }
