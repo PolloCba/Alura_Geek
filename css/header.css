@@ -60,6 +60,7 @@
 .titulo__login{
     text-decoration: none;
     color: #2a7ae4;
+    cursor: pointer;
 }
 
 @media only screen and (max-device-width:375px){

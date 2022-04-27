@@ -27,7 +27,7 @@
           </div>
           <div class="login">
             <button class="boton__login">
-                <a class="titulo__login" href="./pages/login.html">Login</a>
+                <a class="titulo__login" onclick="login()">Login</a>
             </button>
           </div>
         </div>
@@ -35,7 +35,7 @@
     <section class="seccion__principal">
         <h2 class="seccion__principal--titulo">Noviembre Promocional</h2>
         <p class="seccion__principal--parrafo">Productos seleccionados con un 25% de descuento</p>
-        <button type="submit" class="seccion__principal--boton" onclick="window.location.href='#consolas'">Ver Consolas</button>
+        <button type="submit" class="seccion__principal--boton" onclick="consolas()">Ver Consolas</button>
     </section>
     <section class="seccion__catalogo">
          <div class="seccion__catalogo--categoria">
@@ -206,17 +206,17 @@
          </ul>
     </div>
     </div>
-    <form action="" method="POST" id="form" class="formulario">
+    <form action="" method="POST" id="formulario" class="formulario">
         <h3 class="formulario__titulo">Hable con nosotros</h3>
         <div class="formulario__campo">
             <label for="name">Nombre</label>
-            <input name="nombre" type="text" class="formulario__nombre" id="nombre" placeholder="Claudio Fabian Amaya">
+            <input name="nombre" type="text" class="formulario__nombre correcto incorrecto" id="nombre" placeholder="Claudio Fabian Amaya">
         </div>
         <div class="formulario__campo">
             <label for="textarea">Escribe tu mensaje</label>
             <textarea name="mensaje" id="mensaje" class="formulario__texto"></textarea>
         </div>
-        <button class="formulario__boton" id="boton" disabled>Enviar mensaje</button>
+        <button type="submit" class="formulario__boton" id="boton">Enviar mensaje</button>
         <p class="warnings" id="warnings"></p>
     </form>
 </section>
@@ -225,5 +225,6 @@
 </footer>
 <script src="./js/formulario_contacto.js"></script>
 <script src="./js/validar_boton--contacto.js"></script>
+<script src="./js/boton_login--consola.js"></script>
 </body>
 </html>
