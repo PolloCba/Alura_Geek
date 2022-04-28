@@ -109,6 +109,14 @@
     transform: scale(1.10);
 }
 
+.boton__enabled{
+    background-color: rgb(38, 211, 105);
+}
+
+.boton__disabled{
+    background-color: rgb(202, 22, 22);
+}
+
 .warnings{
         width: 200px;
         text-align: center;

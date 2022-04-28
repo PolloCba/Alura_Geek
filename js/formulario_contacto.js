@@ -1,6 +1,6 @@
-/*const nombre = document.getElementById("nombre");
+const nombre = document.getElementById("nombre");
 const text = document.getElementById("mensaje");
-const form = document.getElementById("form");
+const form = document.getElementById("formulario");
 const parrafo = document.getElementById("warnings");
 
 form.addEventListener("submit", e=>{
@@ -8,12 +8,12 @@ form.addEventListener("submit", e=>{
     let warnings = "";
     let entrar = false;
     parrafo.innerHTML = "";
-    if(nombre.value == " " || nombre.value.length == 0 || nombre.value.length >= 40){
-        warnings += `El nombre no es valido <br>`;
+    if(nombre.value == null || nombre.value.length == 0 || nombre.value.length >= 40 || /^\s*$/.test(nombre.value)){
+        warnings += `El nombre no es valido, no puede quedar en blanco, maximo 40 caracteres <br><br>`;
         entrar = true;
     }
-    if(text.value == " " || text.value.length == 0 || text.value.length > 120){
-        warnings += `El texto no es valido <br>`;
+    if(text.value == null || text.value.length == 0 || text.value.length > 120 || /^\s*$/.test(text.value)){
+        warnings += `El texto no es valido, no puede quedar en blanco, maximo 120 caracteres`;
         entrar = true;
     }
     if(entrar){
@@ -24,40 +24,9 @@ form.addEventListener("submit", e=>{
 });
 
 document.addEventListener('DOMContentLoaded', function(){
-    let formulario = document.getElementById('form');
-    formulario.addEventListener('submit', function() {
+    let formulario = document.getElementById('formulario');
+    formulario.addEventListener('submit', function(){
       formulario.reset();
     });
-  });*/
-
-  const expresiones = {
-	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
-	nombre: /^[a-zA-ZÀ-ÿ]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-	password: /^.{4,12}$/, // 4 a 12 digitos.
-	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
-  }
-
-  const formulario = document.getElementById("formulario");
-  const input = document.getElementById("nombre");
-  const textarea = document.getElementById("mensaje");
-  const parrafo = document.getElementById("warnings");
-
-  const validarFormulario = (evento)=>{
-      switch (evento.target.name){
-          case "nombre":
-             if (expresiones.nombre.test(evento.target.value)){
-                console.log("El nombre es correcto");
-             }else {
-                console.log("El nombre no es correcto");
-             }
-          break;
-      }
-  }
-
-  input.addEventListener("keyup", validarFormulario);
-  input.addEventListener("blur", validarFormulario);
-
-  formulario.addEventListener("submit", (evento)=>{
-      evento.preventDefault();
   });
+
