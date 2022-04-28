@@ -23,5 +23,6 @@ function habilitar(){
 
 document.getElementById("mensaje").addEventListener("keyup", habilitar);
 document.getElementById("boton").addEventListener("click", ()=>{
-    console.log("Haz completado el formulario");
+    console.log("Formulario completo");
+    boton.classList.add("boton__disabled");
 })
